@@ -1,0 +1,70 @@
+.text-container {
+    position: absolute;
+    color: rgb(54, 20, 227);
+    left: 5%;
+    right: 5%;
+    top: 5rem;
+    padding: 0 1rem;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.text-container-ocassion {
+    position: absolute;
+    color: rgb(101, 6, 124);
+    left: 10%;
+    right: 10%;
+    top: 8rem;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.card {
+    text-align: center;
+}
+
+.text-container-date {
+    position: absolute;
+    color: rgb(4, 105, 18);
+    left: 10%;
+    right: 10%;
+    top: 13rem;
+    padding: 0 1rem;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.text-container-timing {
+    position: absolute;
+    color: rgb(138, 20, 71);
+    left: 10%;
+    right: 10%;
+    top: 14.5rem;
+    padding: 0 1rem;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.text-container-address {
+    position: absolute;
+    color: rgb(248, 9, 9);
+    left: 5%;
+    right: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 15rem;
+    text-align: center;
+    text-justify: inter-word;
+    padding: 0 1rem;
+}
+
+.text-container-name {
+    position: absolute;
+    color: rgb(138, 20, 71);
+    left: 10%;
+    right: 10%;
+
+    top: 20.5rem;
+    text-align: center;
+    text-justify: inter-word;
+    padding: 0 1rem;
+}

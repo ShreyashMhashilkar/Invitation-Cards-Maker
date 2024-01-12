@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right top, #2e0b54, #340971, #35078f, #2e07b0, #110bd3);
+  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.loginbox {
+  background-image: linear-gradient(to right bottom, #261757, #004080, #00669b, #008baa, #19afb1);
+}
+
+.loginbox1 {
+  background-image: linear-gradient(to right top, #eb2532, #f20057, #e70085, #c200b8, #6a12eb);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #3d095b;
+  color: white;
+  position: relative; /* Add relative positioning */
+}
+
+.logo {
+  font-size: 20px;
+}
+
+/* Desktop navigation links */
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  width: 75%;
+}
+
+/* Common navigation link styles */
+.home,
+.skill,
+.contact,
+.about {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+}
+
+/* Mobile menu icon */
+.mobile-menu-icon {
+  display: none;
+}
+
+/* Media query for mobile layout */
+@media screen and (max-width: 780px) {
+  .logo {
+      position: absolute;
+      /* top: 40%; */
+      left: 10%;
+      /* transform: translate(-50%, -50%); */
+  }
+
+  .nav-links {
+      display: none;
+  }
+
+  /* Adjusted styles for mobile navigation */
+  .nav-links-mobile {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: rgba(205, 8, 235, 0.94);
+      /* opacity: 0.80; */
+      list-style: none;
+      text-align: center;
+      /* padding: 10px 0; */
+      transition: all 1.5s ease-out;
+      z-index: 1;
+  }
+  /* Adjusted styles for mobile navigation links */
+  .home,
+  .skill,
+  .about,
+  .contact {
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      display: block;
+  }
+  .home:hover,
+  .skill:hover,
+  .contact:hover,
+  .about:hover {
+  color: gold;
+  font-size: 25px; /* Increase font size on hover */
+}
+
+  /* Mobile menu icon styles */
+  .mobile-menu-icon {
+      display: block;
+      position: absolute;
+      font-size: 30px;
+      color: white;
+      background: transparent;
+      border: none;
+      outline: none;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+  }
+}
+
