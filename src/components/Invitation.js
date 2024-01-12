@@ -85,7 +85,7 @@ const Invitation = () => {
                 <Grid item container spacing={3} direction={{ xs: 'column', md: 'row' }} mt={2} alignItems="center" justify="space-around">
 
                     <Grid item lg={4} xs={12} s={12} md={4} >
-                        <Card sx={{ maxWidth: 320, }} ref={exportRef1} boxShadow="10px 10px 20px #ccc">
+                        <Card sx={{ maxWidth: 300, }} ref={exportRef1} boxShadow="10px 10px 20px #ccc">
                             <Box sx={{ position: 'relative' }} >
                                 <CardMedia component="img" height="100%" image={bg1} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -98,13 +98,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef1.current, "invitation card1")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef1.current, "invitation card1")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef2}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef2}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg2} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -117,13 +117,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef2.current, "invitation card2")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef2.current, "invitation card2")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef3}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef3}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg3} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -136,13 +136,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef3.current, "invitation card3")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef3.current, "invitation card3")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef5}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef5}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg5} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -155,13 +155,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef5.current, "invitation card5")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef5.current, "invitation card5")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef6}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef6}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg6} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -174,13 +174,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef6.current, "invitation card6")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef6.current, "invitation card6")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef7}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef7}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg7} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -193,13 +193,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef7.current, "invitation card7")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef7.current, "invitation card7")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef8}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef8}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg8} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -212,13 +212,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef8.current, "invitation card8")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef8.current, "invitation card8")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef9}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef9}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg9} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -231,13 +231,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef9.current, "invitation card9")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef9.current, "invitation card9")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef10}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef10}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg10} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -250,13 +250,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef10.current, "invitation card10")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef10.current, "invitation card10")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef11}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef11}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg11} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -269,13 +269,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef11.current, "invitation card11")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef11.current, "invitation card11")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef12}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef12}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg12} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -288,13 +288,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef12.current, "invitation card12")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef12.current, "invitation card12")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef13}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef13}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg13} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -307,13 +307,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef13.current, "invitation card13")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef13.current, "invitation card13")} sx={{ color: 'white', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef14}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef14}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg14} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -326,13 +326,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef14.current, "invitation card14")} sx={{ color: 'white', marginBottom: '10px', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef14.current, "invitation card14")} sx={{ color: 'white', marginBottom: '10px', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef15}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef15}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg15} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -345,13 +345,13 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef15.current, "invitation card15")} sx={{ color: 'white', marginBottom: '10px', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef15.current, "invitation card15")} sx={{ color: 'white', marginBottom: '10px', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
 
                     <Grid item lg={4} xs={12} s={12} md={4}>
-                        <Card sx={{ maxWidth: 320 }} ref={exportRef16}>
+                        <Card sx={{ maxWidth: 300 }} ref={exportRef16}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg16} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
@@ -364,7 +364,7 @@ const Invitation = () => {
                                 </Box>
                             </Box>
                         </Card>
-                        <Button onClick={() => exportAsImage(exportRef16.current, "invitation card16")} sx={{ color: 'white', marginBottom: '10px', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 320, ':hover': { bgcolor: 'yellow', color: 'white', } }}
+                        <Button onClick={() => exportAsImage(exportRef16.current, "invitation card16")} sx={{ color: 'white', marginBottom: '10px', backgroundImage: 'linear-gradient(to right top, #1a6de9, #00a0ff, #00c5df, #00df86, #a8eb12)', width: 300, ':hover': { bgcolor: 'yellow', color: 'white', } }}
                         >DOWNLOAD
                         </Button>
                     </Grid>
