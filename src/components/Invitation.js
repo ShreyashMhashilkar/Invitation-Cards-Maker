@@ -81,15 +81,16 @@ const Invitation = () => {
         <>
 
 
-            <Box container sx={{ flexGrow: 1 }}>
-                <Grid item container spacing={3} direction={{ xs: 'column', md: 'row' }} mt={2} alignItems="center" justify="space-around">
+<Box container sx={{ flexGrow: 1, mx: 2 }}>
+                {/* <Grid item container  direction={{ xs: 'column', md: 'row' }} mt={2} alignItems="center" > */}
+                <Grid container spacing={2} mt={2}>
 
-                    <Grid item lg={4} xs={12} s={12} md={4} >
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300, }} ref={exportRef1} boxShadow="10px 10px 20px #ccc">
                             <Box sx={{ position: 'relative' }} >
                                 <CardMedia component="img" height="100%" image={bg1} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
@@ -103,12 +104,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef2}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg2} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -122,12 +123,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef3}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg3} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -141,12 +142,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef5}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg5} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -160,12 +161,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef6}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg6} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -179,12 +180,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef7}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg7} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -198,12 +199,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef8}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg8} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -217,12 +218,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef9}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg9} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -236,12 +237,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef10}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg10} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -255,12 +256,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef11}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg11} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -274,12 +275,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef12}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg12} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -293,12 +294,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef13}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg13} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -312,12 +313,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef14}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg14} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -331,12 +332,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef15}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg15} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
@@ -350,12 +351,12 @@ const Invitation = () => {
                         </Button>
                     </Grid>
 
-                    <Grid item lg={4} xs={12} s={12} md={4}>
+                     <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300 }} ref={exportRef16}>
                             <Box sx={{ position: 'relative' }}>
                                 <CardMedia component="img" height="100%" image={bg16} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
                                     <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
                                     <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
