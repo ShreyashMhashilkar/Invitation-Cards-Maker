@@ -81,7 +81,7 @@ const Invitation = () => {
         <>
 
 
-            <Box container sx={{ flexGrow: 1, ml: 6 }}>
+            <Box container sx={{ flexGrow: 1 }}>
                 <Grid item container spacing={3} direction={{ xs: 'column', md: 'row' }} mt={2} alignItems="center" justify="space-around">
 
                     <Grid item lg={4} xs={12} s={12} md={4} >
