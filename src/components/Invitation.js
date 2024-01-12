@@ -81,9 +81,11 @@ const Invitation = () => {
         <>
 
 
-<Box container sx={{ flexGrow: 1, mx: 2 }}>
-                {/* <Grid item container  direction={{ xs: 'column', md: 'row' }} mt={2} alignItems="center" > */}
-                <Grid container spacing={2} mt={2}>
+<Box container sx={{ flexGrow: 1,mx:2}}>
+                <Grid item container spacing={3} direction={{ xs: 'column', md: 'row' }} mt={2}
+                    alignItems="center"
+                    justify="space-around"
+                >
 
                      <Grid item xs={12} sm={6} lg={3} md={6} >
                         <Card sx={{ maxWidth: 300, }} ref={exportRef1} boxShadow="10px 10px 20px #ccc">
