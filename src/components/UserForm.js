@@ -4,7 +4,7 @@ import { Box, Button, InputLabel, TextField, Typography, Stack, Grid, Paper, Ite
 import { useSelector, useDispatch } from "react-redux";
 import { add } from '../redux/detailSlice';
 
-const CreateOrder = () => {
+const UserForm = () => {
   const dispatch = useDispatch();
   const { detailItem } = useSelector((state) => state.detail)
   console.log(detailItem)
@@ -176,4 +176,4 @@ const CreateOrder = () => {
   );
 };
 
-export default CreateOrder;
+export default UserForm;
