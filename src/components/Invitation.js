@@ -112,11 +112,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg2} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -131,11 +131,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg3} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -150,11 +150,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg5} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -169,11 +169,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg6} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -188,11 +188,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg7} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -207,11 +207,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg8} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -226,11 +226,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg9} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -245,11 +245,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg10} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -264,11 +264,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg11} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -283,11 +283,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg12} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -302,11 +302,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg13} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -321,11 +321,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg14} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -340,11 +340,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg15} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
@@ -359,11 +359,11 @@ const Invitation = () => {
                                 <CardMedia component="img" height="100%" image={bg16} />
                                 <Box sx={{ position: 'absolute', bottom: 0, left: 0, width: '100%', color: 'white', padding: '10px', }}>
                                     <Typography variant="h6" sx={{ marginBottom: 1, marginLeft: 1, marginRight: 1 }} align='center' color="blue">You are coordially invited <br />on occasion of</Typography>
-                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">Ganpati</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: 01-01-2024</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing: 02:34</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">Harihar Enclave,Evershine city,Vasai east</Typography>
-                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">Shreyash Mhashilkar</Typography>
+                                    <Typography variant="h5" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="darkblue">{detailItem[0].occasion}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="green">Date: {detailItem[0].date}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="purple">Timing:{detailItem[0].timing}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 2, marginLeft: 1, marginRight: 1 }} align="center" color="red">{detailItem[0].address}</Typography>
+                                    <Typography variant="h6" sx={{ marginBottom: 6, marginLeft: 1, marginRight: 1 }} align="center" color="darkgreen">{detailItem[0].name}</Typography>
                                 </Box>
                             </Box>
                         </Card>
